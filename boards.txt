@@ -4574,6 +4574,12 @@ GenF4.menu.upload_method.bmpMethod=BMP (Black Magic Probe)
 GenF4.menu.upload_method.bmpMethod.upload.protocol=gdb_bmp
 GenF4.menu.upload_method.bmpMethod.upload.tool=bmp_upload
 
+GenF4.menu.upload_method.tinyuf2Method=TinyUF2 Bootloader (64KB)
+GenF4.menu.upload_method.tinyuf2Method.upload.protocol=
+GenF4.menu.upload_method.tinyuf2Method.upload.tool=
+GenF4.menu.upload_method.tinyuf2Method.build.flash_offset=0x10000
+GenF4.menu.upload_method.tinyuf2Method.build.bootloader_flags=-DBL_TINYUF2
+
 GenF4.menu.upload_method.hidMethod=HID Bootloader 2.2
 GenF4.menu.upload_method.hidMethod.upload.protocol=hid22
 GenF4.menu.upload_method.hidMethod.upload.tool=hid_upload
